@@ -1,0 +1,29 @@
+button {
+    user-select: none;
+}
+
+#flyout_1,
+#flyout_2,
+#flyout_3 {
+    background-color: #fff;
+    border: solid 1px #e0e0e0;
+    height: 100px;
+    position: relative;
+    width: 300px;
+
+    user-select: none;
+}
+
+#show_flyout_2 {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+#show_flyout_3 {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 120px;
+}
